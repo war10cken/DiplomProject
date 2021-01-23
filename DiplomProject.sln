@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiplomProject", "DiplomProject\DiplomProject.csproj", "{D7ED6A74-7EAB-4463-8B11-6F25CDCD0643}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiplomProject.Domain", "DiplomProject.Domain\DiplomProject.Domain.csproj", "{F641EC24-808C-40E5-B17B-4EF07F86938B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiplomProject.EntityFramework", "DiplomProject.EntityFramework\DiplomProject.EntityFramework.csproj", "{2E829717-0693-49A4-AEB0-A14E4EE82A30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D7ED6A74-7EAB-4463-8B11-6F25CDCD0643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7ED6A74-7EAB-4463-8B11-6F25CDCD0643}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7ED6A74-7EAB-4463-8B11-6F25CDCD0643}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7ED6A74-7EAB-4463-8B11-6F25CDCD0643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F641EC24-808C-40E5-B17B-4EF07F86938B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F641EC24-808C-40E5-B17B-4EF07F86938B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F641EC24-808C-40E5-B17B-4EF07F86938B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F641EC24-808C-40E5-B17B-4EF07F86938B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E829717-0693-49A4-AEB0-A14E4EE82A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E829717-0693-49A4-AEB0-A14E4EE82A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E829717-0693-49A4-AEB0-A14E4EE82A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E829717-0693-49A4-AEB0-A14E4EE82A30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
